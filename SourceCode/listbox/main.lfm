@@ -1,0 +1,63 @@
+object Form1: TForm1
+  Left = 358
+  Height = 318
+  Top = 296
+  Width = 305
+  Caption = 'List Box Application'
+  ClientHeight = 318
+  ClientWidth = 305
+  LCLVersion = '0.9.30'
+  object Edit1: TEdit
+    Left = 9
+    Height = 27
+    Top = 37
+    Width = 160
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object btAdd: TButton
+    Left = 187
+    Height = 25
+    Top = 38
+    Width = 75
+    Caption = 'Add'
+    OnClick = btAddClick
+    TabOrder = 1
+  end
+  object ListBox1: TListBox
+    Left = 9
+    Height = 189
+    Top = 89
+    Width = 164
+    ItemHeight = 0
+    TabOrder = 2
+    TopIndex = -1
+  end
+  object btClear: TButton
+    Left = 187
+    Height = 25
+    Top = 91
+    Width = 75
+    Caption = 'Clear'
+    OnClick = btClearClick
+    TabOrder = 3
+  end
+  object btDelete: TButton
+    Left = 187
+    Height = 25
+    Top = 142
+    Width = 75
+    Caption = 'Delete'
+    OnClick = btDeleteClick
+    TabOrder = 4
+  end
+  object btClose: TButton
+    Left = 187
+    Height = 25
+    Top = 251
+    Width = 75
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 5
+  end
+end

@@ -1,0 +1,28 @@
+object fmMain: TfmMain
+  Left = 290
+  Height = 300
+  Top = 201
+  Width = 400
+  Caption = 'Stream Copy'
+  ClientHeight = 300
+  ClientWidth = 400
+  LCLVersion = '0.9.28'
+  object Button1: TButton
+    Left = 128
+    Height = 40
+    Top = 104
+    Width = 84
+    Caption = 'Copy'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object OpenDialog1: TOpenDialog
+    left = 221
+    top = 46
+  end
+  object SaveDialog1: TSaveDialog
+    Options = [ofOverwritePrompt, ofEnableSizing, ofViewDetail]
+    left = 219
+    top = 116
+  end
+end

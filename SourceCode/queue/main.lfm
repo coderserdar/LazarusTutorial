@@ -1,0 +1,64 @@
+object fmMain: TfmMain
+  Left = 502
+  Height = 300
+  Top = 391
+  Width = 636
+  Caption = 'Queue'
+  ClientHeight = 300
+  ClientWidth = 636
+  OnClose = FormClose
+  OnCreate = FormCreate
+  ParentFont = False
+  LCLVersion = '0.9.26'
+  object Label1: TLabel
+    Left = 10
+    Height = 17
+    Top = 32
+    Width = 121
+    Caption = 'Customer Name'
+    ParentColor = False
+  end
+  object edCustomer: TEdit
+    Left = 136
+    Height = 23
+    Top = 24
+    Width = 360
+    TabOrder = 0
+  end
+  object bbAdd: TButton
+    Left = 504
+    Height = 25
+    Top = 23
+    Width = 113
+    Caption = 'Add to Queue'
+    OnClick = bbAddClick
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 4
+    Height = 222
+    Top = 64
+    Width = 484
+    Anchors = [akTop, akLeft, akBottom]
+    ScrollBars = ssBoth
+    TabOrder = 2
+  end
+  object bbCount: TButton
+    Left = 505
+    Height = 25
+    Top = 57
+    Width = 75
+    Caption = 'Count'
+    OnClick = bbCountClick
+    TabOrder = 3
+  end
+  object bbGet: TButton
+    Left = 504
+    Height = 25
+    Top = 98
+    Width = 112
+    Caption = 'Get Customer'
+    OnClick = bbGetClick
+    TabOrder = 4
+  end
+end

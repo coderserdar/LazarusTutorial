@@ -1,0 +1,14 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfmMain','FORMDATA',[
+  'TPF0'#7'TfmMain'#6'fmMain'#4'Left'#3'>'#1#6'Height'#3','#1#3'Top'#3':'#1#5'W'
+  +'idth'#3#144#1#7'Caption'#6#22'Input form application'#12'ClientHeight'#3','
+  +#1#11'ClientWidth'#3#144#1#10'ParentFont'#8#10'LCLVersion'#6#6'0.9.26'#0#6'T'
+  +'Label'#6'Label1'#4'Left'#2#19#6'Height'#2#17#3'Top'#2'%'#5'Width'#3#174#0#7
+  +'Caption'#6#22'Please enter your name'#11'ParentColor'#8#0#0#6'TLabel'#10'la'
+  +'YourName'#4'Left'#2'n'#6'Height'#2#17#3'Top'#2'w'#5'Width'#2'['#7'Caption'#6
+  +#10'laYourName'#11'ParentColor'#8#0#0#5'TEdit'#6'edName'#4'Left'#2#18#6'Heig'
+  +'ht'#2#23#3'Top'#2'9'#5'Width'#3#174#0#8'TabOrder'#2#0#0#0#7'TButton'#7'Butt'
+  +'on1'#4'Left'#2#19#6'Height'#2#25#3'Top'#2'p'#5'Width'#2'K'#7'Caption'#6#5'C'
+  +'lick'#7'OnClick'#7#12'Button1Click'#8'TabOrder'#2#1#0#0#0
+]);

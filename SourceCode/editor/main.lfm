@@ -1,0 +1,48 @@
+object fmMain: TfmMain
+  Left = 373
+  Height = 300
+  Top = 296
+  Width = 400
+  Caption = 'Editor'
+  ClientHeight = 275
+  ClientWidth = 400
+  Menu = MainMenu1
+  LCLVersion = '0.9.30'
+  object Memo1: TMemo
+    Left = 0
+    Height = 275
+    Top = 0
+    Width = 400
+    Align = alClient
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+  object MainMenu1: TMainMenu
+    left = 104
+    top = 48
+    object MenuItem1: TMenuItem
+      Caption = 'File'
+      OnClick = MenuItem1Click
+      object MenuItem3: TMenuItem
+        Caption = 'Open File'
+        OnClick = MenuItem3Click
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'Save As'
+        OnClick = MenuItem4Click
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'Close'
+        OnClick = MenuItem5Click
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    left = 232
+    top = 48
+  end
+  object SaveDialog1: TSaveDialog
+    left = 232
+    top = 128
+  end
+end

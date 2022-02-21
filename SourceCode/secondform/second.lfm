@@ -1,0 +1,23 @@
+object Form2: TForm2
+  Left = 413
+  Height = 379
+  Top = 321
+  Width = 444
+  Caption = 'Form2'
+  ClientHeight = 379
+  ClientWidth = 444
+  ParentFont = False
+  LCLVersion = '0.9.26'
+  object Label1: TLabel
+    Left = 104
+    Height = 44
+    Top = 112
+    Width = 174
+    Caption = 'Second Form'
+    Font.CharSet = 4
+    Font.Height = -27
+    Font.Name = 'kacstpen [kacst]'
+    ParentColor = False
+    ParentFont = False
+  end
+end

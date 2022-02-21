@@ -1,0 +1,88 @@
+object Form1: TForm1
+  Left = 564
+  Height = 446
+  Top = 317
+  Width = 506
+  Caption = 'News (OO)'
+  ClientHeight = 446
+  ClientWidth = 506
+  OnClose = FormClose
+  OnCreate = FormCreate
+  ParentFont = False
+  LCLVersion = '0.9.26'
+  object Label1: TLabel
+    Left = 18
+    Height = 17
+    Top = 72
+    Width = 31
+    Caption = 'Title'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 19
+    Height = 17
+    Top = 24
+    Width = 83
+    Caption = 'News Type'
+    ParentColor = False
+  end
+  object edTitle: TEdit
+    Left = 16
+    Height = 23
+    Top = 87
+    Width = 363
+    TabOrder = 0
+  end
+  object btAdd: TButton
+    Left = 20
+    Height = 25
+    Top = 123
+    Width = 75
+    Caption = 'Add'
+    OnClick = btAddClick
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 20
+    Height = 265
+    Top = 159
+    Width = 472
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ReadOnly = True
+    ScrollBars = ssBoth
+    TabOrder = 2
+  end
+  object cbType: TComboBox
+    Left = 120
+    Height = 25
+    Top = 16
+    Width = 144
+    ItemIndex = 0
+    Items.Strings = (
+      'General'
+      'Economy'
+      'Technology'
+    )
+    MaxLength = 65535
+    TabOrder = 3
+    Text = 'General'
+  end
+  object btShowAll: TButton
+    Left = 112
+    Height = 25
+    Top = 123
+    Width = 75
+    Caption = 'Show All'
+    OnClick = btShowAllClick
+    TabOrder = 4
+  end
+  object btSearch: TButton
+    Left = 201
+    Height = 25
+    Top = 123
+    Width = 75
+    Caption = 'Search'
+    OnClick = btSearchClick
+    TabOrder = 5
+  end
+end

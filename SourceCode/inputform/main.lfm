@@ -1,0 +1,43 @@
+object fmMain: TfmMain
+  Left = 318
+  Height = 300
+  Top = 314
+  Width = 400
+  Caption = 'Input form application'
+  ClientHeight = 300
+  ClientWidth = 400
+  ParentFont = False
+  LCLVersion = '0.9.26'
+  object Label1: TLabel
+    Left = 19
+    Height = 17
+    Top = 37
+    Width = 174
+    Caption = 'Please enter your name'
+    ParentColor = False
+  end
+  object laYourName: TLabel
+    Left = 110
+    Height = 17
+    Top = 119
+    Width = 91
+    Caption = 'laYourName'
+    ParentColor = False
+  end
+  object edName: TEdit
+    Left = 18
+    Height = 23
+    Top = 57
+    Width = 174
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 19
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = 'Click'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+end
